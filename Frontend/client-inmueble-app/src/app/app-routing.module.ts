@@ -16,6 +16,11 @@ const routes: Routes = [
         redirectTo: 'static/welcome'
       }
     ]
+  },
+  {
+    path: '**',
+    pathMatch: 'full',
+    redirectTo: 'static/404'
   }
 ];
 
