@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F35A6C2D-876C-408C-8417-5337E544A3F1}|NetKubernetes.Infraestructure\\NetKubernetes.Infraestructure.csproj|g:\\descargas -no borrar\\cursos\\angular\\netkubernetes\\netkubernetes.infraestructure\\authentication\\token\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F35A6C2D-876C-408C-8417-5337E544A3F1}|NetKubernetes.Infraestructure\\NetKubernetes.Infraestructure.csproj|solutionrelative:netkubernetes.infraestructure\\authentication\\token\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{60059968-968A-4909-8E4E-70A2268901BC}|NetKubernetes\\NetKubernetes.csproj|g:\\descargas -no borrar\\cursos\\angular\\netkubernetes\\netkubernetes\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60059968-968A-4909-8E4E-70A2268901BC}|NetKubernetes\\NetKubernetes.csproj|solutionrelative:netkubernetes\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F35A6C2D-876C-408C-8417-5337E544A3F1}|NetKubernetes.Infraestructure\\NetKubernetes.Infraestructure.csproj|g:\\descargas -no borrar\\cursos\\angular\\netkubernetes\\netkubernetes.infraestructure\\authentication\\token\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F35A6C2D-876C-408C-8417-5337E544A3F1}|NetKubernetes.Infraestructure\\NetKubernetes.Infraestructure.csproj|solutionrelative:netkubernetes.infraestructure\\authentication\\token\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60059968-968A-4909-8E4E-70A2268901BC}|NetKubernetes\\NetKubernetes.csproj|g:\\descargas -no borrar\\cursos\\angular\\netkubernetes\\netkubernetes\\controllers\\inmueblescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 230,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,12 +70,11 @@
               "RelativeToolTip": "NetKubernetes.Infraestructure\\Repositories\\Usuarios\\UsuarioRepository.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAlwEwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T00:02:35.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T00:02:35.763Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "JwtGenerator.cs",
               "DocumentMoniker": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes.Infraestructure\\Authentication\\Token\\JwtGenerator.cs",
               "RelativeDocumentMoniker": "NetKubernetes.Infraestructure\\Authentication\\Token\\JwtGenerator.cs",
@@ -88,13 +87,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UsuariosController.cs",
               "DocumentMoniker": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes\\Controllers\\UsuariosController.cs",
               "RelativeDocumentMoniker": "NetKubernetes\\Controllers\\UsuariosController.cs",
               "ToolTip": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "NetKubernetes\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAowC8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T23:57:49.369Z",
               "EditorCaption": ""
@@ -109,8 +108,7 @@
               "RelativeToolTip": "NetKubernetes\\Program.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAlwDkAAAB/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T23:50:16.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T23:50:16.379Z"
             },
             {
               "$type": "Document",
@@ -122,8 +120,7 @@
               "RelativeToolTip": "NetKubernetes\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-06T23:55:34.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T23:55:34.886Z"
             },
             {
               "$type": "Document",
@@ -135,8 +132,7 @@
               "RelativeToolTip": "NetKubernetes\\Data\\LoadDatabase.cs",
               "ViewState": "AgIAAD4AAAAAAAAAAAAgwFAAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T23:55:02.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T23:55:02.032Z"
             },
             {
               "$type": "Document",
@@ -148,8 +144,7 @@
               "RelativeToolTip": "NetKubernetes\\Controllers\\InmueblesController.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwB0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T23:54:09.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T23:54:09.312Z"
             },
             {
               "$type": "Document",
@@ -161,8 +156,7 @@
               "RelativeToolTip": "NetKubernetes\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-06T23:50:31.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T23:50:31.428Z"
             }
           ]
         }
