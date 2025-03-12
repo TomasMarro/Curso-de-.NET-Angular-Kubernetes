@@ -3,7 +3,7 @@ import * as fromActions from './user.actions';
 
 export interface UserState {
   entity: UserResponse | null;
-  id: string | null;
+  email: string | null;
   loading: boolean | null;
   error: string | null;
 }
@@ -11,7 +11,7 @@ export interface UserState {
 
 const initialState: UserState = {
   entity: null,
-  id: null,
+  email: null,
   loading: null,
   error: null
 }
@@ -29,7 +29,7 @@ export function reducer(state = initialState, action: fromActions.ALL | any): Us
         ...state,
         loading: false,
         entity: null,
-        id: null,
+        email: null,
         error: null
       };
     case fromActions.UserActionTypes.INIT_ERROR:
@@ -37,7 +37,7 @@ export function reducer(state = initialState, action: fromActions.ALL | any): Us
         ...state,
         loading: false,
         entity: null,
-        id: null,
+        email: null,
         error: action.error
       };
     case fromActions.UserActionTypes.INIT_AUTHORIZED:
@@ -45,7 +45,7 @@ export function reducer(state = initialState, action: fromActions.ALL | any): Us
         ...state,
         loading: false,
         entity: action.user,
-        id: action.id
+        email: action.email
       };
     case fromActions.UserActionTypes.LOGIN:
       return {
@@ -53,13 +53,13 @@ export function reducer(state = initialState, action: fromActions.ALL | any): Us
         loading: true,
         error: null,
         entity: null,
-        id: null
+        email: null
       };
     case fromActions.UserActionTypes.LOGIN_SUCCESS:
       return {
         ...state,
         entity: action.user,
-        id: action.id,
+        email: action.email,
         loading: false,
         error: null
       };
@@ -69,7 +69,7 @@ export function reducer(state = initialState, action: fromActions.ALL | any): Us
         loading: false,
         error: action.error,
         entity: null,
-        id: null
+        email: null
       };
     case fromActions.UserActionTypes.REGISTER:
       return {
@@ -77,13 +77,13 @@ export function reducer(state = initialState, action: fromActions.ALL | any): Us
         loading: true,
         error: null,
         entity: null,
-        id: null
+        email: null
       };
     case fromActions.UserActionTypes.REGISTER_SUCCESS:
       return {
         ...state,
         entity: action.user,
-        id: action.id,
+        email: action.email,
         loading: false,
         error: null
       };
@@ -93,7 +93,7 @@ export function reducer(state = initialState, action: fromActions.ALL | any): Us
         loading: false,
         error: action.error,
         entity: null,
-        id: null
+        email: null
       };
     case fromActions.UserActionTypes.LOGOUT:
       return {
@@ -109,7 +109,7 @@ export function reducer(state = initialState, action: fromActions.ALL | any): Us
         error: action.error,
         loading: false,
         entity: null,
-        id: null
+        email: null
       };
     default:
       return state;

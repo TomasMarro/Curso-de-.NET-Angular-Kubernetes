@@ -102,7 +102,7 @@ namespace NetKubernetes.Infraestructure.Repositories.Usuarios
                 UserName = request.UserName
             };
 
-           IdentityResult resultado =  await _userManager.CreateAsync(usuario!, request.Password!);
+           IdentityResult resultado =  await _userManager.CreateAsync(userCreate!, request.Password!);
 
             if (!resultado.Succeeded)
             {

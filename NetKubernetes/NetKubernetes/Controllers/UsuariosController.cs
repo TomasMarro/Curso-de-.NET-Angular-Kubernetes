@@ -10,7 +10,7 @@ namespace NetKubernetes.Controllers
     [Route("api/[controller]")]
     public class UsuariosController : ControllerBase
     {
-         private readonly ILogger<InmueblesController> _logger;
+        private readonly ILogger<InmueblesController> _logger;
         private readonly IUsuarioRepository _usuarioRepository;
         public UsuariosController(ILogger<InmueblesController> logger, IUsuarioRepository usuarioRepository)
         {
@@ -45,7 +45,7 @@ namespace NetKubernetes.Controllers
         public async Task<ActionResult<UsuarioResponseDto>> GetUserSession
         (
         )
-         {
+        {
             UsuarioResponseDto response = await _usuarioRepository.GetUsuario();
             return response;
         }

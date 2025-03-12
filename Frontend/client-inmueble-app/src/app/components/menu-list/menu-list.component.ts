@@ -1,4 +1,5 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-menu-list',
@@ -7,7 +8,8 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 })
 export class MenuListComponent implements OnInit {
 
-
+  @Input() isAuthorized! : boolean | null;
+  @Output() logOut = new EventEmitter<void>();
   @Output() menuToggle = new EventEmitter<void>();
   constructor() { }
 
@@ -18,5 +20,9 @@ export class MenuListComponent implements OnInit {
   closeMenu(): void
   {
     this.menuToggle.emit();
+  }
+
+  cerrarSession(): void{
+    this.logOut.emit();
   }
 }

@@ -10,6 +10,7 @@ import { FormsModule } from '@angular/forms';
 import { MatIconModule } from '@angular/material/icon';
 import { MatCardModule } from '@angular/material/card';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { SpinnerModule } from '@app/shared/indicators';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatCardModule,
     FlexLayoutModule,
 
-    FormsModule
+    FormsModule,
+    SpinnerModule
   ]
 })
 export class LoginModule { }

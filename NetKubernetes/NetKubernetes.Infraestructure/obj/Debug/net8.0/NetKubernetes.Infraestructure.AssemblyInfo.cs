@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetKubernetes.Infraestructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d92ce35c79884f029559ba685819051f773277c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19add37887312035376e4e1b5531e6eb2fb41a52")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetKubernetes.Infraestructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetKubernetes.Infraestructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -6,9 +6,11 @@
 
   <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.xs>
     <ul fxLayout="row" fxLayoutGap="10px"  class="navegacion-menu">
-      <li><a routerLink="auth/registration">Registrar</a></li>
-      <li><a routerLink="auth/login">Login</a></li>
-      <li><a routerLink="/">Home</a></li>
+      <li><a href=""> {{user ? user.nombre + '' + user.apellido : null}}</a></li>
+      <li><a *ngIf="!isAuthorized" routerLink="auth/registration">Registrar</a></li>
+      <li><a *ngIf="!isAuthorized" routerLink="auth/login">Login</a></li>
+      <li><a *ngIf="isAuthorized" routerLink="/">Home</a></li>
+      <li (click)="cerrarSession()"><a *ngIf="isAuthorized" routerLink="/">Salir</a></li>
     </ul>
   </div>
 

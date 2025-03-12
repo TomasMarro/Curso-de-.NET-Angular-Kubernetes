@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{60059968-968A-4909-8E4E-70A2268901BC}|NetKubernetes\\NetKubernetes.csproj|solutionrelative:netkubernetes\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F35A6C2D-876C-408C-8417-5337E544A3F1}|NetKubernetes.Infraestructure\\NetKubernetes.Infraestructure.csproj|g:\\descargas -no borrar\\cursos\\angular\\netkubernetes\\netkubernetes.infraestructure\\authentication\\token\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F35A6C2D-876C-408C-8417-5337E544A3F1}|NetKubernetes.Infraestructure\\NetKubernetes.Infraestructure.csproj|solutionrelative:netkubernetes.infraestructure\\authentication\\token\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60059968-968A-4909-8E4E-70A2268901BC}|NetKubernetes\\NetKubernetes.csproj|g:\\descargas -no borrar\\cursos\\angular\\netkubernetes\\netkubernetes\\controllers\\inmueblescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60059968-968A-4909-8E4E-70A2268901BC}|NetKubernetes\\NetKubernetes.csproj|solutionrelative:netkubernetes\\controllers\\inmueblescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F35A6C2D-876C-408C-8417-5337E544A3F1}|NetKubernetes.Infraestructure\\NetKubernetes.Infraestructure.csproj|g:\\descargas -no borrar\\cursos\\angular\\netkubernetes\\netkubernetes.infraestructure\\repositories\\usuarios\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F35A6C2D-876C-408C-8417-5337E544A3F1}|NetKubernetes.Infraestructure\\NetKubernetes.Infraestructure.csproj|solutionrelative:netkubernetes.infraestructure\\repositories\\usuarios\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F35A6C2D-876C-408C-8417-5337E544A3F1}|NetKubernetes.Infraestructure\\NetKubernetes.Infraestructure.csproj|g:\\descargas -no borrar\\cursos\\angular\\netkubernetes\\netkubernetes.infraestructure\\authentication\\token\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F35A6C2D-876C-408C-8417-5337E544A3F1}|NetKubernetes.Infraestructure\\NetKubernetes.Infraestructure.csproj|solutionrelative:netkubernetes.infraestructure\\authentication\\token\\jwtgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60059968-968A-4909-8E4E-70A2268901BC}|NetKubernetes\\NetKubernetes.csproj|g:\\descargas -no borrar\\cursos\\angular\\netkubernetes\\netkubernetes\\data\\loaddatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,12 +23,16 @@
       "RelativeMoniker": "D:0:0:{60059968-968A-4909-8E4E-70A2268901BC}|NetKubernetes\\NetKubernetes.csproj|solutionrelative:netkubernetes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60059968-968A-4909-8E4E-70A2268901BC}|NetKubernetes\\NetKubernetes.csproj|g:\\descargas -no borrar\\cursos\\angular\\netkubernetes\\netkubernetes\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{60059968-968A-4909-8E4E-70A2268901BC}|NetKubernetes\\NetKubernetes.csproj|solutionrelative:netkubernetes\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{60059968-968A-4909-8E4E-70A2268901BC}|NetKubernetes\\NetKubernetes.csproj|g:\\descargas -no borrar\\cursos\\angular\\netkubernetes\\netkubernetes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{60059968-968A-4909-8E4E-70A2268901BC}|NetKubernetes\\NetKubernetes.csproj|solutionrelative:netkubernetes\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60059968-968A-4909-8E4E-70A2268901BC}|NetKubernetes\\NetKubernetes.csproj|g:\\descargas -no borrar\\cursos\\angular\\netkubernetes\\netkubernetes\\controllers\\inmueblescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60059968-968A-4909-8E4E-70A2268901BC}|NetKubernetes\\NetKubernetes.csproj|solutionrelative:netkubernetes\\controllers\\inmueblescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60059968-968A-4909-8E4E-70A2268901BC}|NetKubernetes\\NetKubernetes.csproj|g:\\descargas -no borrar\\cursos\\angular\\netkubernetes\\netkubernetes\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{60059968-968A-4909-8E4E-70A2268901BC}|NetKubernetes\\NetKubernetes.csproj|solutionrelative:netkubernetes\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,45 +42,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 230,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "UsuarioRepository.cs",
               "DocumentMoniker": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes.Infraestructure\\Repositories\\Usuarios\\UsuarioRepository.cs",
               "RelativeDocumentMoniker": "NetKubernetes.Infraestructure\\Repositories\\Usuarios\\UsuarioRepository.cs",
               "ToolTip": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes.Infraestructure\\Repositories\\Usuarios\\UsuarioRepository.cs",
               "RelativeToolTip": "NetKubernetes.Infraestructure\\Repositories\\Usuarios\\UsuarioRepository.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAlwEwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAQwG8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T00:02:35.763Z"
+              "WhenOpened": "2025-03-07T00:02:35.763Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "JwtGenerator.cs",
               "DocumentMoniker": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes.Infraestructure\\Authentication\\Token\\JwtGenerator.cs",
               "RelativeDocumentMoniker": "NetKubernetes.Infraestructure\\Authentication\\Token\\JwtGenerator.cs",
               "ToolTip": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes.Infraestructure\\Authentication\\Token\\JwtGenerator.cs",
               "RelativeToolTip": "NetKubernetes.Infraestructure\\Authentication\\Token\\JwtGenerator.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAEwA0AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAlwA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-07T00:02:28.692Z",
               "EditorCaption": ""
@@ -93,26 +78,27 @@
               "RelativeDocumentMoniker": "NetKubernetes\\Controllers\\UsuariosController.cs",
               "ToolTip": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes\\Controllers\\UsuariosController.cs",
               "RelativeToolTip": "NetKubernetes\\Controllers\\UsuariosController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwC8AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAlwDQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T23:57:49.369Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes\\Program.cs",
               "RelativeDocumentMoniker": "NetKubernetes\\Program.cs",
               "ToolTip": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes\\Program.cs",
               "RelativeToolTip": "NetKubernetes\\Program.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAlwDkAAAB/AAAAAAAAAA==",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAlwHMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T23:50:16.379Z"
+              "WhenOpened": "2025-03-06T23:50:16.379Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
               "DocumentMoniker": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "NetKubernetes\\Properties\\launchSettings.json",
@@ -124,19 +110,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "LoadDatabase.cs",
               "DocumentMoniker": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes\\Data\\LoadDatabase.cs",
               "RelativeDocumentMoniker": "NetKubernetes\\Data\\LoadDatabase.cs",
               "ToolTip": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes\\Data\\LoadDatabase.cs",
               "RelativeToolTip": "NetKubernetes\\Data\\LoadDatabase.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAgwFAAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwFAAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T23:55:02.032Z"
+              "WhenOpened": "2025-03-06T23:55:02.032Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "InmueblesController.cs",
               "DocumentMoniker": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes\\Controllers\\InmueblesController.cs",
               "RelativeDocumentMoniker": "NetKubernetes\\Controllers\\InmueblesController.cs",
@@ -148,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "appsettings.json",
               "DocumentMoniker": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes\\appsettings.json",
               "RelativeDocumentMoniker": "NetKubernetes\\appsettings.json",
@@ -156,7 +143,8 @@
               "RelativeToolTip": "NetKubernetes\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-06T23:50:31.428Z"
+              "WhenOpened": "2025-03-06T23:50:31.428Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -1,9 +1,9 @@
 <mat-sidenav-container>
   <mat-sidenav #menu>
-    <app-menu-list (menuToggle)="menu.close()"></app-menu-list>
+    <app-menu-list (menuToggle)="menu.close()" (logOut)="cerrarSession()" [isAuthorized] = "isAuthorized$ | async"></app-menu-list>
   </mat-sidenav>
   <mat-sidenav-content>
-    <app-header (menuToggle)="menu.toggle()" ></app-header>
+    <app-header (menuToggle)="menu.toggle()" (logOut)="cerrarSession()" [isAuthorized] = "isAuthorized$ | async" [user] = "user$ | async" ></app-header>
     <main>
       <router-outlet></router-outlet>
     </main>

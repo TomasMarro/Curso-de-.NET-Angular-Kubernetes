@@ -3,6 +3,11 @@ import { environment } from '@src/environments/environment';
 import { test } from '@app/test';
 import { AngularFirestore } from '@angular/fire/compat/firestore';
 import { NotificationService } from '@app/services';
+import * as fromRoot from '@app/store';
+import * as fromUser from '@app/store/user';
+import { select, Store } from '@ngrx/store';
+import { Observable } from 'rxjs';
+import { Router } from '@angular/router';
 
 
 @Component({
@@ -13,7 +18,8 @@ import { NotificationService } from '@app/services';
 export class AppComponent implements OnInit{
   title = 'client-inmueble-app';
   showSpinner = false;
-
+  user$! : Observable<fromUser.UserResponse> ;
+  isAuthorized$! :  Observable<boolean>;
 
 
 
@@ -21,16 +27,18 @@ export class AppComponent implements OnInit{
    *
    */
   constructor( private fs: AngularFirestore,
-    private ns: NotificationService
+    private ns: NotificationService,
+    private store: Store<fromRoot.State>,
+    private roter: Router
   ) {
   }
 
 
-  ngOnInit
-  () {
-    // this.fs.collection('test').stateChanges().subscribe(personas => {
-    //   console.log(personas.map(p => p.payload.doc.data()));
-    // });
+  ngOnInit() {
+   this.user$ = this.store.pipe(select(fromUser.getUser))  as Observable<fromUser.UserResponse>;
+   this.isAuthorized$ = this.store.pipe(select(fromUser.getIsAuthorized))  as Observable<boolean>;
+
+   this.store.dispatch(new fromUser.Init());
   }
 
 
@@ -48,6 +56,12 @@ export class AppComponent implements OnInit{
 
   onError() : void {
     this.ns.error('Operación fallida');
+  }
+
+  cerrarSession(): void{
+    localStorage.removeItem('token');
+    this.store.dispatch(new fromUser.Logout());
+    this.roter.navigate(['/auth/login']);
   }
 
 }
