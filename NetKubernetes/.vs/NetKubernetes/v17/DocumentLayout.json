@@ -70,8 +70,7 @@
               "RelativeToolTip": "NetKubernetes.Infraestructure\\Repositories\\Usuarios\\UsuarioRepository.cs",
               "ViewState": "AgIAAFkAAAAAAAAAAAAQwG8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T00:02:35.763Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T00:02:35.763Z"
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "RelativeToolTip": "NetKubernetes.Infraestructure\\Authentication\\Token\\JwtGenerator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAlwA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T00:02:28.692Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T00:02:28.692Z"
             },
             {
               "$type": "Document",
@@ -109,8 +107,7 @@
               "RelativeToolTip": "NetKubernetes\\Program.cs",
               "ViewState": "AgIAAGIAAAAAAAAAAAAlwHMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T23:50:16.379Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T23:50:16.379Z"
             },
             {
               "$type": "Document",
@@ -134,8 +131,7 @@
               "RelativeToolTip": "NetKubernetes\\Data\\LoadDatabase.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAAgwFAAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T23:55:02.032Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T23:55:02.032Z"
             },
             {
               "$type": "Document",
@@ -159,8 +155,7 @@
               "RelativeToolTip": "NetKubernetes\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-06T23:50:31.428Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T23:50:31.428Z"
             }
           ]
         }
