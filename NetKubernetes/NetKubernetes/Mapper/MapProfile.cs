@@ -11,7 +11,7 @@ namespace NetKubernetes.Mapper
         public MapProfile()
         {
             CreateMap<Inmueble, InmuebleResponseDto>().ReverseMap();
-            CreateMap<InmuebleResponseDto, Inmueble>();
+            CreateMap<InmuebleRequestDto, Inmueble>().ReverseMap();
             CreateMap<Usuario, UsuarioResponseDto>();
             CreateMap<UsuarioResponseDto, Usuario>();
         }

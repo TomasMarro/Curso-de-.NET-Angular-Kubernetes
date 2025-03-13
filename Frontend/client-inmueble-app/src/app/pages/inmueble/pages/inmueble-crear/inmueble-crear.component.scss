@@ -1,0 +1,36 @@
+@import 'styles/colors';
+
+mat-card{
+  width: 450px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+
+mat-form-field{
+  width: 400px;
+}
+
+
+.personal{
+  &__foto{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+.foto{
+  display: inline-flex;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 0%;
+  width: 150px;
+  height: 150px;
+
+  &__img{
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,39 @@
+<app-spinner *ngIf="loading$ | async"></app-spinner>
+
+<mat-toolbar color="secondary">
+  <span>Registrar Nuevo Inmueble</span>
+</mat-toolbar>
+
+
+<section fxLayoutAlign="center">
+  <mat-card>
+    <form fxLayoutAlign="center center" fxLayout="column" #f="ngForm" (ngSubmit)="registrarInmueble(f)"
+      fxLayoutGap="10px">
+      <div class="personal__foto">
+        <div class="foto">
+          <app-entity-foto class="foto__img" [fotoUrl]="fotoLoaded"></app-entity-foto>
+          <button mat-button appFilesUpload (changed)="onFilesChanged($event)">
+            <mat-icon>add_a_photo</mat-icon>
+            Subir Foto
+          </button>
+        </div>
+      </div>
+      <mat-form-field>
+        <mat-label>Ingrese Nombre</mat-label>
+        <input matInput type="text" placeholder="Nombre" name="nombre" ngModel required>
+        <mat-error>Debe ingreser un nombre</mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Ingrese Dirección</mat-label>
+        <input matInput placeholder="Dirección" name="direccion" ngModel required>
+        <mat-error>Debe ingreser una direccion</mat-error>
+      </mat-form-field>
+      <mat-form-field>
+        <mat-label>Ingrese Precio</mat-label>
+        <input matInput placeholder="Precio" name="precio" ngModel required>
+        <mat-error>Debe ingreser el precio</mat-error>
+      </mat-form-field>
+      <button mat-raised-button color="primary" type="submit" [disabled]="f.invalid">Guardar Inmueble</button>
+    </form>
+  </mat-card>
+</section>

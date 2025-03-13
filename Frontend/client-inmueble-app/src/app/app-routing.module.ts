@@ -7,6 +7,10 @@ const routes: Routes = [
     path: '',
     children:[
       {
+        path: 'inmueble',
+        loadChildren: () => import('./pages/inmueble/inmueble.module').then(m => m.InmuebleModule),
+      },
+      {
         path: 'auth',
         loadChildren: () => import('./pages/auth/auth.module').then(m => m.AuthModule),
       },
