@@ -26,13 +26,20 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(MapProfile));
 
 
+//builder.Services.AddDbContext<AppDbContext>(options =>
+//{
+//    options.LogTo(
+//        Console.WriteLine, 
+//        new [] {DbLoggerCategory.Database.Command.Name}, LogLevel.Information
+//        ).EnableSensitiveDataLogging();
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("SQLServerConnection"));
+//});
+
+var mySqlConnectionString = builder.Configuration.GetConnectionString("MySQLConnection");
+
 builder.Services.AddDbContext<AppDbContext>(options =>
 {
-    options.LogTo(
-        Console.WriteLine, 
-        new [] {DbLoggerCategory.Database.Command.Name}, LogLevel.Information
-        ).EnableSensitiveDataLogging();
-    options.UseSqlServer(builder.Configuration.GetConnectionString("SQLServerConnection"));
+    options.UseMySql(mySqlConnectionString, ServerVersion.AutoDetect(mySqlConnectionString));
 });
 
 builder.Services.AddScoped<IInmueblesRepository, InmueblesRepository>();
