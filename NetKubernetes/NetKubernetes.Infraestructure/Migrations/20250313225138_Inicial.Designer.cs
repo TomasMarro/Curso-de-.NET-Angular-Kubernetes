@@ -12,7 +12,7 @@ using NetKubernetes.Infraestructure.Context;
 namespace NetKubernetes.Infraestructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250313212520_Inicial")]
+    [Migration("20250313225138_Inicial")]
     partial class Inicial
     {
         /// <inheritdoc />
@@ -28,7 +28,8 @@ namespace NetKubernetes.Infraestructure.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(255)");
+                        .HasMaxLength(36)
+                        .HasColumnType("varchar(36)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -39,8 +40,8 @@ namespace NetKubernetes.Infraestructure.Migrations
                         .HasColumnType("varchar(256)");
 
                     b.Property<string>("NormalizedName")
-                        .HasMaxLength(256)
-                        .HasColumnType("varchar(256)");
+                        .HasMaxLength(90)
+                        .HasColumnType("varchar(90)");
 
                     b.HasKey("Id");
 
@@ -67,7 +68,7 @@ namespace NetKubernetes.Infraestructure.Migrations
 
                     b.Property<string>("RoleId")
                         .IsRequired()
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(36)");
 
                     b.HasKey("Id");
 
@@ -92,7 +93,7 @@ namespace NetKubernetes.Infraestructure.Migrations
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(36)");
 
                     b.HasKey("Id");
 
@@ -114,7 +115,7 @@ namespace NetKubernetes.Infraestructure.Migrations
 
                     b.Property<string>("UserId")
                         .IsRequired()
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(36)");
 
                     b.HasKey("LoginProvider", "ProviderKey");
 
@@ -126,10 +127,10 @@ namespace NetKubernetes.Infraestructure.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<string>", b =>
                 {
                     b.Property<string>("UserId")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(36)");
 
                     b.Property<string>("RoleId")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(36)");
 
                     b.HasKey("UserId", "RoleId");
 
@@ -141,7 +142,7 @@ namespace NetKubernetes.Infraestructure.Migrations
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
                     b.Property<string>("UserId")
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("varchar(36)");
 
                     b.Property<string>("LoginProvider")
                         .HasColumnType("varchar(255)");
@@ -191,7 +192,8 @@ namespace NetKubernetes.Infraestructure.Migrations
             modelBuilder.Entity("NetKubernetes.Domain.Models.Usuario", b =>
                 {
                     b.Property<string>("Id")
-                        .HasColumnType("varchar(255)");
+                        .HasMaxLength(36)
+                        .HasColumnType("varchar(36)");
 
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
@@ -224,8 +226,8 @@ namespace NetKubernetes.Infraestructure.Migrations
                         .HasColumnType("varchar(256)");
 
                     b.Property<string>("NormalizedUserName")
-                        .HasMaxLength(256)
-                        .HasColumnType("varchar(256)");
+                        .HasMaxLength(36)
+                        .HasColumnType("varchar(36)");
 
                     b.Property<string>("PasswordHash")
                         .HasColumnType("longtext");
