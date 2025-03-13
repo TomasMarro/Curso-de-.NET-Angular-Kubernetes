@@ -5,6 +5,7 @@ import * as fromActions from './save.actions';
 
 export interface ListState
 {
+  inmuebles: InmuebleResponse[] | null;
   inmueble: InmuebleResponse | null;
   loading: boolean | null;
   error: string | null;
@@ -12,6 +13,7 @@ export interface ListState
 
 
 export const initialState: ListState = {
+  inmuebles: null,
   inmueble: null,
   loading: null,
   error: null
@@ -41,6 +43,28 @@ export function reducer(state: ListState = initialState, action: fromActions.Sav
         loading: false,
         error: action.error
       }
+    }
+    case fromActions.SaveActionTypes.READ: {
+      return {
+        ...state,
+        loading: true,
+        error: null
+      };
+    }
+    case fromActions.SaveActionTypes.READ_SUCCESS: {
+      return {
+        ...state,
+        inmuebles: action.inmuebles,
+        loading: false,
+        error: null
+      };
+    }
+    case fromActions.SaveActionTypes.READ_FAILURE: {
+      return {
+        ...state,
+        loading: false,
+        error: action.error
+      };
     }
     default:
       return state;

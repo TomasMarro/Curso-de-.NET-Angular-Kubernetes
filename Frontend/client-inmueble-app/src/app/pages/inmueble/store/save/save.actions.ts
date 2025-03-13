@@ -32,6 +32,7 @@ export class CreateFail implements Action {
 
 export class Read implements Action {
   readonly type = SaveActionTypes.READ;
+  constructor() {  }
 }
 
 export class ReadSuccess implements Action {
