@@ -4590,9 +4590,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes\\NetKubernetes.csproj",
-      "projectName": "NetKubernetes",
-      "projectPath": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes\\NetKubernetes.csproj",
+      "projectUniqueName": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes\\NetKubernetes.Api.csproj",
+      "projectName": "NetKubernetes.Api",
+      "projectPath": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes\\NetKubernetes.Api.csproj",
       "packagesPath": "C:\\Users\\tomas\\.nuget\\packages\\",
       "outputPath": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes\\obj\\",
       "projectStyle": "PackageReference",

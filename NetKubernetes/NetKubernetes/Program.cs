@@ -35,7 +35,7 @@ builder.Services.AddAutoMapper(typeof(MapProfile));
 //    options.UseSqlServer(builder.Configuration.GetConnectionString("SQLServerConnection"));
 //});
 
-var mySqlConnectionString = builder.Configuration.GetConnectionString("MySQLConnection");
+var mySqlConnectionString = builder.Configuration.GetConnectionString("MySqlCleverCloud");
 
 builder.Services.AddDbContext<AppDbContext>(options =>
 {

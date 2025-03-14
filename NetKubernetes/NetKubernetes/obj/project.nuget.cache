@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RP2d2t8HdLA=",
+  "dgSpecHash": "uvd55+vrd7k=",
   "success": true,
-  "projectFilePath": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes\\NetKubernetes.csproj",
+  "projectFilePath": "G:\\Descargas -NO BORRAR\\Cursos\\ANGULAR\\NetKubernetes\\NetKubernetes\\NetKubernetes.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tomas\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\tomas\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

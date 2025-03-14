@@ -1,0 +1,16 @@
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Application\bin\Debug\net8.0\NetKubernetes.Application.deps.json
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Application\bin\Debug\net8.0\NetKubernetes.Application.dll
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Application\bin\Debug\net8.0\NetKubernetes.Application.pdb
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Application\bin\Debug\net8.0\NetKubernetes.Domain.dll
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Application\bin\Debug\net8.0\NetKubernetes.Domain.pdb
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Application\obj\Debug\net8.0\NetKubernetes.Application.csproj.AssemblyReference.cache
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Application\obj\Debug\net8.0\NetKubernetes.Application.GeneratedMSBuildEditorConfig.editorconfig
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Application\obj\Debug\net8.0\NetKubernetes.Application.AssemblyInfoInputs.cache
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Application\obj\Debug\net8.0\NetKubernetes.Application.AssemblyInfo.cs
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Application\obj\Debug\net8.0\NetKubernetes.Application.csproj.CoreCompileInputs.cache
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Application\obj\Debug\net8.0\NetKubernetes.Application.sourcelink.json
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Application\obj\Debug\net8.0\NetKuber.D99C57C7.Up2Date
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Application\obj\Debug\net8.0\NetKubernetes.Application.dll
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Application\obj\Debug\net8.0\refint\NetKubernetes.Application.dll
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Application\obj\Debug\net8.0\NetKubernetes.Application.pdb
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Application\obj\Debug\net8.0\ref\NetKubernetes.Application.dll
