@@ -5,13 +5,13 @@ export const environment = {
   name: 'dev',
   firebase : {
     config : {
-      apiKey: "AIzaSyCgbTSM6uV5av3DrLYelCN_RhSyycI4MzU",
-      authDomain: "edificacion-app-94e87.firebaseapp.com",
-      projectId: "edificacion-app-94e87",
-      storageBucket: "edificacion-app-94e87.firebasestorage.app",
-      messagingSenderId: "1098650370307",
-      appId: "1:1098650370307:web:9c4bf79081ac6e6c952936"
+      apiKey: "AIzaSyACsVvEealhbn-jCI8tKWJWfxfOKGrvGZQ",
+      authDomain: "edificio-app2.firebaseapp.com",
+      projectId: "edificio-app2",
+      storageBucket: "edificio-app2.firebasestorage.app",
+      messagingSenderId: "1081490869436",
+      appId: "1:1081490869436:web:9502c14d1a05bf3fbe54b9"
     }
   },
-  url: 'http://localhost:5000/api/',
+  url: 'http://www.Kubernetes.somee.com/api/',
 };

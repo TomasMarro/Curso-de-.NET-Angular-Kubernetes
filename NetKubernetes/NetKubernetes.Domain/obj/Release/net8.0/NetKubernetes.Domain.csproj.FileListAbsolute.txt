@@ -1,0 +1,13 @@
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Domain\bin\Release\net8.0\NetKubernetes.Domain.deps.json
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Domain\bin\Release\net8.0\NetKubernetes.Domain.dll
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Domain\bin\Release\net8.0\NetKubernetes.Domain.pdb
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Domain\obj\Release\net8.0\NetKubernetes.Domain.csproj.AssemblyReference.cache
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Domain\obj\Release\net8.0\NetKubernetes.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Domain\obj\Release\net8.0\NetKubernetes.Domain.AssemblyInfoInputs.cache
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Domain\obj\Release\net8.0\NetKubernetes.Domain.AssemblyInfo.cs
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Domain\obj\Release\net8.0\NetKubernetes.Domain.csproj.CoreCompileInputs.cache
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Domain\obj\Release\net8.0\NetKubernetes.Domain.sourcelink.json
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Domain\obj\Release\net8.0\NetKubernetes.Domain.dll
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Domain\obj\Release\net8.0\refint\NetKubernetes.Domain.dll
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Domain\obj\Release\net8.0\NetKubernetes.Domain.pdb
+G:\Descargas -NO BORRAR\Cursos\ANGULAR\NetKubernetes\NetKubernetes.Domain\obj\Release\net8.0\ref\NetKubernetes.Domain.dll

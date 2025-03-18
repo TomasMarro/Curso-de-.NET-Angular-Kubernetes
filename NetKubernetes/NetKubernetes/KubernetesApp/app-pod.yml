@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: app-pod
+  labels:
+    name: app
+    type: netapi
+spec:
+  containers:
+  - name: app-api
+    image: marrotomas/net-tomas-sql:v1.0
+    ports:
+        - containerPort: 5000
+    env:
+      - name: ConnectionStrings__SQLServerConnection
+        value: Data Source=mssql-service;Initial Catalog=NetKubernetes;User ID=sa;Password=Tomas12345*;TrustServerCertificate=True;

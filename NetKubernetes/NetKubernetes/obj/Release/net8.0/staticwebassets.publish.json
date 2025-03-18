@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ubj1VkWzAIH0Ek7xYjkL/85OlbSYvZA4MWwLbK4sYWo=",
+  "Source": "NetKubernetes.Api",
+  "BasePath": "_content/NetKubernetes.Api",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
